@@ -1,0 +1,13 @@
+name: Check Cloud Decision
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if Cloud Decision Issue Exists
+        run: |
+          echo "Simulando validação..."
+          exit 1
