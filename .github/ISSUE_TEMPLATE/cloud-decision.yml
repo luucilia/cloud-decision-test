@@ -1,0 +1,22 @@
+name: Cloud Decision
+description: Obrigatório antes de iniciar a implementação
+title: "[Cloud Decision]: "
+labels: ["cloud-decision"]
+
+body:
+  - type: dropdown
+    id: csp_choice
+    attributes:
+      label: CSP pretendido
+      options:
+        - CSP A
+        - CSP B
+    validations:
+      required: true
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justificativa
+    validations:
+      required: true
